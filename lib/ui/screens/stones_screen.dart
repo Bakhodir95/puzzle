@@ -72,8 +72,9 @@ class _PuzzleScreenState extends State<PuzzleScreen> {
                               alignment: Alignment.center,
                               child: Text(
                                 "${state.mp["${i + 1}"] == 0 ? "" : state.mp["${i + 1}"]}",
-                                style: TextStyle(
-                                    fontSize: 50, color: Colors.green),
+                                style: const TextStyle(
+                                    fontSize: 50,
+                                    color: Color.fromARGB(255, 175, 79, 76)),
                               ),
                             ),
                           ),
